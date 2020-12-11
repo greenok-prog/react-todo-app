@@ -1,0 +1,43 @@
+@import 'variables';
+.page--dark{
+    background:linear-gradient(#2B5876,#4E4376);
+
+    .header{
+        background-color: #7D2F0D;
+    }
+    .left__sidebar,.content{
+        background-color: #333333;
+    }
+    .task__text{
+        color: #fff;
+    }
+    .item__icon,.task__icon{
+        fill:#fff;
+        opacity: 1;
+        &:hover {
+            fill: $orange;
+            
+          }
+    }
+    .add__folder,.add__task{
+        background-color: #333333;
+        color: #fff;
+        button{
+            background-color:  #7D2F0D;
+        }
+    }
+    
+    .add__folder-input,.add__task-input{
+        color: white;
+    }
+    .theme__toggle-title{
+        color: #fff;
+    }
+    .toggle{
+        
+        &__circle{
+            transform: translateX(20px);
+        }
+    }
+    
+}
